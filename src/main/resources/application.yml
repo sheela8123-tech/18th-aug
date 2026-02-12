@@ -1,0 +1,11 @@
+server:
+  port: 8082   # Order service port
+
+spring:
+  application:
+    name: order-service   # This name appears in Eureka dashboard
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
